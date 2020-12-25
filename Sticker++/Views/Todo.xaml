@@ -1,0 +1,27 @@
+﻿<Page x:Class="Sticker__.Views.Todo"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:ui="http://schemas.modernwpf.com/2019"
+      xmlns:fw="clr-namespace:SourceChord.FluentWPF;assembly=FluentWPF"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Sticker__.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="550" d:DesignWidth="580"
+      Title="Todo">
+
+    <Grid>
+
+        <Label Content="To Do List" HorizontalAlignment="Left" Height="44" Margin="19,22,0,0" VerticalAlignment="Top" Width="153" FontSize="30"/>
+        <TextBox Name="things" HorizontalAlignment="Left" Height="32" Margin="10,496,0,0" TextWrapping="Wrap" Text="添加内容" VerticalAlignment="Top" Width="510"/>
+        <Button Content="" HorizontalAlignment="Left" Height="32" Margin="535,496,0,0" VerticalAlignment="Top" Width="35" Style="{StaticResource ButtonRoundRevealStyle}" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Sticker++;component/Picture/icons8_plus_math.png"/>
+            </Button.Background>
+        </Button>
+
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="0,66,10,60" Height="424">
+            <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Top" Width="540" x:Name="WrapPanel1" Orientation="Vertical"/>
+        </ScrollViewer>
+    </Grid>
+</Page>

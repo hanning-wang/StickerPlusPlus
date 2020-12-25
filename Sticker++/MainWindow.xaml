@@ -1,0 +1,31 @@
+﻿<Window x:Class="Sticker__.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        xmlns:fw="clr-namespace:SourceChord.FluentWPF;assembly=FluentWPF"
+        ui:WindowHelper.UseModernWindowStyle="True"
+        xmlns:local="clr-namespace:Sticker__"
+        mc:Ignorable="d" fw:AcrylicWindow.Enabled="True" fw:AcrylicWindow.AcrylicWindowStyle="NoIcon"
+        Title="MainWindow" Height="600" Width="640">
+    <Grid Background="#70212121">
+        <ui:NavigationView x:Name="NavView"
+                         Loaded="NavView_Loaded"
+                         ItemInvoked="NavView_ItemInvoked"
+                         IsBackButtonVisible="Collapsed"
+                         PaneDisplayMode="LeftCompact"
+                         IsSettingsVisible="True">
+            <ui:NavigationView.MenuItems>
+                <ui:NavigationViewItem Tag="home" Content="Welcome Menu" Icon="Home"/>
+                <ui:NavigationViewItemSeparator/>
+                <ui:NavigationViewItem Tag="Sticker" Icon="Pin" Content="便签" />
+                <ui:NavigationViewItem Tag="Todo" Content="To Do List" />
+            </ui:NavigationView.MenuItems>
+
+            <ScrollViewer>
+                <Frame x:Name="ContentFrame" Padding="0,0,0,0" IsTabStop="True" NavigationUIVisibility="Hidden"/>
+            </ScrollViewer>
+        </ui:NavigationView>
+    </Grid>
+</Window>

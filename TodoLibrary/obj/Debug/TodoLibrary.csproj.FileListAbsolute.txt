@@ -1,0 +1,11 @@
+G:\Sticker++\Sticker++\TodoLibrary\bin\Debug\TodoLibrary.dll
+G:\Sticker++\Sticker++\TodoLibrary\bin\Debug\TodoLibrary.pdb
+G:\Sticker++\Sticker++\TodoLibrary\obj\Debug\TodoLibrary.csprojAssemblyReference.cache
+G:\Sticker++\Sticker++\TodoLibrary\obj\Debug\TodoLibrary.csproj.CoreCompileInputs.cache
+G:\Sticker++\Sticker++\TodoLibrary\obj\Debug\TodoLibrary.dll
+G:\Sticker++\Sticker++\TodoLibrary\obj\Debug\TodoLibrary.pdb
+G:\Sticker++\Sticker++\TodoLibrary\bin\Debug\Dapper.dll
+G:\Sticker++\Sticker++\TodoLibrary\bin\Debug\System.Data.SQLite.dll
+G:\Sticker++\Sticker++\TodoLibrary\bin\Debug\Dapper.xml
+G:\Sticker++\Sticker++\TodoLibrary\bin\Debug\System.Data.SQLite.xml
+G:\Sticker++\Sticker++\TodoLibrary\obj\Debug\TodoLibrary.csproj.CopyComplete
